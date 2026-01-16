@@ -27,6 +27,47 @@ locals {
   subnet_id = data.aws_subnets.default_vpc_subnets.ids[0]
 }
 
+# -------------------------
+# Internet access (IGW + default route)
+# Your default VPC currently has no Internet Gateway attached
+# -------------------------
+
+resource "aws_internet_gateway" "igw" {
+  vpc_id = data.aws_vpc.default.id
+
+  tags = {
+    Name    = "${var.project}-${var.env}-igw"
+    Project = var.project
+    Env     = var.env
+  }
+}
+
+data "aws_route_table" "main" {
+  vpc_id = data.aws_vpc.default.id
+
+  filter {
+    name   = "association.main"
+    values = ["true"]
+  }
+}
+
+# Manage the main/default route table and ensure 0.0.0.0/0 goes to our IGW
+resource "aws_default_route_table" "main" {
+  default_route_table_id = data.aws_route_table.main.id
+
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.igw.id
+  }
+
+  tags = {
+    Name    = "${var.project}-${var.env}-main-rt"
+    Project = var.project
+    Env     = var.env
+  }
+}
+
+
 resource "aws_route53_zone" "this" {
   name = var.domain_name
 }
