@@ -1,0 +1,79 @@
+2026-01-15T18:50:48.772-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T18:50:48.772-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T18:50:48.772-0800 [INFO]  CLI args: []string{"terraform", "plan"}
+2026-01-15T18:50:48.776-0800 [INFO]  CLI command args: []string{"plan"}
+2026-01-15T18:50:48.786-0800 [INFO]  backend/local: starting Plan operation
+2026-01-15T18:51:05.428-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T18:51:05.428-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T18:51:05.428-0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-01-15T18:51:05.433-0800 [INFO]  CLI command args: []string{"init"}
+2026-01-15T18:52:08.492-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T18:52:08.492-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T18:52:08.492-0800 [INFO]  CLI args: []string{"terraform", "plan"}
+2026-01-15T18:52:08.496-0800 [INFO]  CLI command args: []string{"plan"}
+2026-01-15T18:52:15.484-0800 [INFO]  backend/local: starting Plan operation
+2026-01-15T18:52:15.495-0800 [INFO]  provider: configuring client automatic mTLS
+2026-01-15T18:53:15.607-0800 [ERROR] provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.28.0/darwin_amd64/terraform-provider-aws_v6.28.0_x5 id=86412 error="signal: killed"
+2026-01-15T18:53:15.616-0800 [WARN]  provider: plugin failed to exit gracefully
+2026-01-15T18:58:25.197-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T18:58:25.197-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T18:58:25.197-0800 [INFO]  CLI args: []string{"terraform", "init", "-upgrade"}
+2026-01-15T18:58:25.201-0800 [INFO]  CLI command args: []string{"init", "-upgrade"}
+2026-01-15T18:58:54.519-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T18:58:54.519-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T18:58:54.519-0800 [INFO]  CLI args: []string{"terraform", "plan"}
+2026-01-15T18:58:54.522-0800 [INFO]  CLI command args: []string{"plan"}
+2026-01-15T18:59:01.513-0800 [INFO]  backend/local: starting Plan operation
+2026-01-15T18:59:01.527-0800 [INFO]  provider: configuring client automatic mTLS
+2026-01-15T19:00:01.631-0800 [WARN]  provider: plugin failed to exit gracefully
+2026-01-15T19:00:01.634-0800 [ERROR] provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.28.0/darwin_amd64/terraform-provider-aws_v6.28.0_x5 id=86664 error="signal: killed"
+2026-01-15T19:04:29.568-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T19:04:29.568-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T19:04:29.568-0800 [INFO]  CLI args: []string{"terraform", "init", "-upgrade"}
+2026-01-15T19:04:29.569-0800 [INFO]  CLI command args: []string{"init", "-upgrade"}
+2026-01-15T19:05:34.860-0800 [INFO]  Terraform version: 1.14.3
+2026-01-15T19:05:34.860-0800 [INFO]  Go runtime version: go1.25.5
+2026-01-15T19:05:34.860-0800 [INFO]  CLI args: []string{"terraform", "plan"}
+2026-01-15T19:05:34.860-0800 [INFO]  CLI command args: []string{"plan"}
+2026-01-15T19:05:35.271-0800 [INFO]  backend/local: starting Plan operation
+2026-01-15T19:05:35.272-0800 [INFO]  provider: configuring client automatic mTLS
+2026-01-15T19:05:41.477-0800 [INFO]  provider.terraform-provider-aws_v6.28.0_x5: configuring server automatic mTLS: timestamp=2026-01-15T19:05:41.477-0800
+2026-01-15T19:05:42.155-0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.28.0/darwin_arm64/terraform-provider-aws_v6.28.0_x5 id=86913
+2026-01-15T19:05:42.157-0800 [INFO]  provider: configuring client automatic mTLS
+2026-01-15T19:05:42.325-0800 [INFO]  provider.terraform-provider-aws_v6.28.0_x5: configuring server automatic mTLS: timestamp=2026-01-15T19:05:42.325-0800
+2026-01-15T19:05:42.412-0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.28.0/darwin_arm64/terraform-provider-aws_v6.28.0_x5 id=86918
+2026-01-15T19:05:42.412-0800 [INFO]  backend/local: plan calling Plan
+2026-01-15T19:05:42.413-0800 [INFO]  provider: configuring client automatic mTLS
+2026-01-15T19:05:42.584-0800 [INFO]  provider.terraform-provider-aws_v6.28.0_x5: configuring server automatic mTLS: timestamp=2026-01-15T19:05:42.584-0800
+2026-01-15T19:05:42.662-0800 [INFO]  provider.terraform-provider-aws_v6.28.0_x5: Retrieved credentials: tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=da25927e-a962-2088-208c-ecc80d8a5287 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.70/logging/tf_logger.go:39 @module=aws.aws-base tf_rpc=ConfigureProvider tf_aws.credentials_source="SharedConfigCredentials: /Users/mohammedparvez/.aws/credentials" timestamp=2026-01-15T19:05:42.662-0800
+2026-01-15T19:05:43.156-0800 [INFO]  provider.terraform-provider-aws_v6.28.0_x5: Retrieved caller identity from STS: tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=da25927e-a962-2088-208c-ecc80d8a5287 tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.70/logging/tf_logger.go:39 @module=aws.aws-base timestamp=2026-01-15T19:05:43.156-0800
+2026-01-15T19:05:43.165-0800 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_route53_zone.this, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .comment: planned value cty.StringVal("Managed by Terraform") for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2026-01-15T19:05:44.407-0800 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_security_group.k3s_sg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .ingress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTP"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(80)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTPS"), "from_port":cty.NumberIntVal(443), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(443)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("76.137.153.153/32")}), "description":cty.StringVal("SSH from my IP"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("tcp"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(22)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTP"), "from_port":cty.NumberIntVal(80), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(80)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("HTTPS"), "from_port":cty.NumberIntVal(443), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(443)}), cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("76.137.153.153/32")}), "description":cty.StringVal("SSH from my IP"), "from_port":cty.NumberIntVal(22), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("tcp"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(22)})})
+      - .revoke_rules_on_delete: planned value cty.False for a non-computed attribute
+      - .egress: planned value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("All outbound"), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.ListValEmpty(cty.String), "prefix_list_ids":cty.ListValEmpty(cty.String), "protocol":cty.StringVal("-1"), "security_groups":cty.SetValEmpty(cty.String), "self":cty.False, "to_port":cty.NumberIntVal(0)})}) does not match config value cty.SetVal([]cty.Value{cty.ObjectVal(map[string]cty.Value{"cidr_blocks":cty.ListVal([]cty.Value{cty.StringVal("0.0.0.0/0")}), "description":cty.StringVal("All outbound"), "from_port":cty.NumberIntVal(0), "ipv6_cidr_blocks":cty.NullVal(cty.List(cty.String)), "prefix_list_ids":cty.NullVal(cty.List(cty.String)), "protocol":cty.StringVal("-1"), "security_groups":cty.NullVal(cty.Set(cty.String)), "self":cty.NullVal(cty.Bool), "to_port":cty.NumberIntVal(0)})})
+2026-01-15T19:05:44.636-0800 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_instance.k3s, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .user_data_replace_on_change: planned value cty.False for a non-computed attribute
+      - .vpc_security_group_ids: planned value cty.UnknownVal(cty.Set(cty.String)) does not match config value cty.SetVal([]cty.Value{cty.UnknownVal(cty.String)})
+      - .source_dest_check: planned value cty.True for a non-computed attribute
+      - .get_password_data: planned value cty.False for a non-computed attribute
+      - .force_destroy: planned value cty.False for a non-computed attribute
+      - .metadata_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ebs_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .root_block_device[0].delete_on_termination: planned value cty.True for a non-computed attribute
+      - .enclave_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .ephemeral_block_device: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .instance_market_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .private_dns_name_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .maintenance_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .primary_network_interface: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .capacity_reservation_specification: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+      - .cpu_options: attribute representing nested block must not be unknown itself; set nested attribute values to unknown instead
+2026-01-15T19:05:44.641-0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.28.0/darwin_arm64/terraform-provider-aws_v6.28.0_x5 id=86919
+2026-01-15T19:05:44.643-0800 [INFO]  backend/local: plan operation completed

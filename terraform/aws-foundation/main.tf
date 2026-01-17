@@ -161,3 +161,25 @@ resource "aws_eip" "k3s_eip" {
     Env     = var.env
   }
 }
+# -------------------------
+# Route53 DNS Records
+# -------------------------
+
+# Root domain A record
+resource "aws_route53_record" "root_a" {
+  zone_id = aws_route53_zone.this.zone_id
+  name    = var.domain_name
+  type    = "A"
+  ttl     = 300
+  records = [aws_eip.k3s_eip.public_ip]
+}
+
+# Wildcard A record
+resource "aws_route53_record" "wildcard_a" {
+  zone_id = aws_route53_zone.this.zone_id
+  name    = "*.${var.domain_name}"
+  type    = "A"
+  ttl     = 300
+  records = [aws_eip.k3s_eip.public_ip]
+}
+
